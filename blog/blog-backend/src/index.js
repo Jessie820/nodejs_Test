@@ -6,6 +6,6 @@ app.use((ctx) => {
     ctx.body = 'hello world';
 });
 
-app.listen(400, () => {
+app.listen(4000, () => {
     console.log('listening to port 4000');
 });
